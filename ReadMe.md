@@ -37,29 +37,29 @@ A balanced set of 20 images randomly selected from the CelebA test set:
 50% male / 50% female
 50% happy / 50% sad
 
-Results of the evaluation pictures:
--------------------------------------------------------------------------------------------------------------------
-I8Q_CELEBA_MODEL.TFLITE
-eval_set/182643.jpg: gender:Male age:20-39 smile:not Smiling >> Gender:0.99609375, age:0.99609375, smile:0.0, time:17
-eval_set/182648.jpg: gender:Male age:60-99 smile:not Smiling >> Gender:0.9375, age:0.2890625, smile:0.16015625, time:17
-eval_set/182686.jpg: gender:Male age:20-39 smile:Smiling >> Gender:0.99609375, age:0.83984375, smile:0.99609375, time:18
-eval_set/182753.jpg: gender:Male age:20-39 smile:Smiling >> Gender:0.99609375, age:0.984375, smile:0.83984375, time:17
-eval_set/182797.jpg: gender:Male age:40-59 smile:Smiling >> Gender:0.99609375, age:0.40625, smile:0.98828125, time:18
-eval_set/182918.jpg: gender:Male age:40-59 smile:Smiling >> Gender:0.85546875, age:0.46875, smile:0.8046875, time:17
-eval_set/182967.jpg: gender:Male age:60-99 smile:not Smiling >> Gender:0.99609375, age:0.00390625, smile:0.015625, time:17
-eval_set/182968.jpg: gender:Male age:60-99 smile:Smiling >> Gender:0.99609375, age:0.01171875, smile:0.9375, time:18
-eval_set/182986.jpg: gender:Male age:60-99 smile:Smiling >> Gender:0.99609375, age:0.31640625, smile:0.94921875, time:17
-eval_set/182988.jpg: gender:Male age:60-99 smile:not Smiling >> Gender:0.99609375, age:0.04296875, smile:0.05078125, time:17
-eval_set/183309.jpg: gender:Male age:40-59 smile:Smiling >> Gender:0.53125, age:0.53125, smile:0.99609375, time:17
-eval_set/183346.jpg: gender:Female age:20-39 smile:Smiling >> Gender:0.0, age:0.78125, smile:0.98828125, time:17
-eval_set/183405.jpg: gender:Female age:60-99 smile:Smiling >> Gender:0.0, age:0.12890625, smile:0.98828125, time:18
-eval_set/183426.jpg: gender:Female age:20-39 smile:not Smiling >> Gender:0.0, age:0.99609375, smile:0.14453125, time:17
-eval_set/183434.jpg: gender:Female age:20-39 smile:not Smiling >> Gender:0.0, age:0.95703125, smile:0.12890625, time:17
-eval_set/183512.jpg: gender:Female age:40-59 smile:Smiling >> Gender:0.0, age:0.4375, smile:0.99609375, time:17
-eval_set/183534.jpg: gender:Female age:60-99 smile:Smiling >> Gender:0.01171875, age:0.265625, smile:0.9375, time:17
-eval_set/183566.jpg: gender:Male age:60-99 smile:not Smiling >> Gender:0.83984375, age:0.2890625, smile:0.00390625, time:17
-eval_set/183578.jpg: gender:Female age:60-99 smile:Smiling >> Gender:0.03515625, age:0.14453125, smile:0.9921875, time:17
-eval_set/183603.jpg: gender:Female age:60-99 smile:not Smiling >> Gender:0.0, age:0.265625, smile:0.1015625, time:17
+Results of the evaluation pictures:  
+-------------------------------------------------------------------------------------------------------------------  
+I8Q_CELEBA_MODEL.TFLITE  
+eval_set/182643.jpg: gender:Male age:20-39 smile:not Smiling >> Gender:0.99609375, age:0.99609375, smile:0.0, time:17  
+eval_set/182648.jpg: gender:Male age:60-99 smile:not Smiling >> Gender:0.9375, age:0.2890625, smile:0.16015625, time:17  
+eval_set/182686.jpg: gender:Male age:20-39 smile:Smiling >> Gender:0.99609375, age:0.83984375, smile:0.99609375, time:18  
+eval_set/182753.jpg: gender:Male age:20-39 smile:Smiling >> Gender:0.99609375, age:0.984375, smile:0.83984375, time:17  
+eval_set/182797.jpg: gender:Male age:40-59 smile:Smiling >> Gender:0.99609375, age:0.40625, smile:0.98828125, time:18  
+eval_set/182918.jpg: gender:Male age:40-59 smile:Smiling >> Gender:0.85546875, age:0.46875, smile:0.8046875, time:17  
+eval_set/182967.jpg: gender:Male age:60-99 smile:not Smiling >> Gender:0.99609375, age:0.00390625, smile:0.015625, time:17  
+eval_set/182968.jpg: gender:Male age:60-99 smile:Smiling >> Gender:0.99609375, age:0.01171875, smile:0.9375, time:18  
+eval_set/182986.jpg: gender:Male age:60-99 smile:Smiling >> Gender:0.99609375, age:0.31640625, smile:0.94921875, time:17  
+eval_set/182988.jpg: gender:Male age:60-99 smile:not Smiling >> Gender:0.99609375, age:0.04296875, smile:0.05078125, time:17  
+eval_set/183309.jpg: gender:Male age:40-59 smile:Smiling >> Gender:0.53125, age:0.53125, smile:0.99609375, time:17  
+eval_set/183346.jpg: gender:Female age:20-39 smile:Smiling >> Gender:0.0, age:0.78125, smile:0.98828125, time:17  
+eval_set/183405.jpg: gender:Female age:60-99 smile:Smiling >> Gender:0.0, age:0.12890625, smile:0.98828125, time:18  
+eval_set/183426.jpg: gender:Female age:20-39 smile:not Smiling >> Gender:0.0, age:0.99609375, smile:0.14453125, time:17  
+eval_set/183434.jpg: gender:Female age:20-39 smile:not Smiling >> Gender:0.0, age:0.95703125, smile:0.12890625, time:17  
+eval_set/183512.jpg: gender:Female age:40-59 smile:Smiling >> Gender:0.0, age:0.4375, smile:0.99609375, time:17  
+eval_set/183534.jpg: gender:Female age:60-99 smile:Smiling >> Gender:0.01171875, age:0.265625, smile:0.9375, time:17  
+eval_set/183566.jpg: gender:Male age:60-99 smile:not Smiling >> Gender:0.83984375, age:0.2890625, smile:0.00390625, time:17  
+eval_set/183578.jpg: gender:Female age:60-99 smile:Smiling >> Gender:0.03515625, age:0.14453125, smile:0.9921875, time:17  
+eval_set/183603.jpg: gender:Female age:60-99 smile:not Smiling >> Gender:0.0, age:0.265625, smile:0.1015625, time:17  
 
 -------------------------------------------------------------------------------------------------------------------
 F16_CELEBA_MODEL.TFLITE
