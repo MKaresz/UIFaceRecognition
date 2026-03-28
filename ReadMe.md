@@ -37,7 +37,7 @@ A balanced set of 20 images randomly selected from the CelebA test set:
 50% male / 50% female
 50% happy / 50% sad
 
-Results of the evaluation pictures:  
+Results of the evaluation pictures on Motorola Moto G14 CPU (Android 14, Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55):  
 -------------------------------------------------------------------------------------------------------------------  
 I8Q_CELEBA_MODEL.TFLITE  
 eval_set/182643.jpg: gender:Male age:20-39 smile:not Smiling >> Gender:0.99609375, age:0.99609375, smile:0.0, time:17  
