@@ -42,8 +42,6 @@ import com.google.mlkit.vision.face.FaceDetectorOptions
 const val IMAGE_SIZE: Int = 160
 const val NUM_THREADS: Int = 4
 
-val AGE_LABELS: List<String> = listOf("60-99", "40-59", "20-39", "0-19")
-
 
 class FaceDetectionHelper(private val context: Context) {
     private var model: CompiledModel? = null
@@ -269,6 +267,8 @@ class MainActivity : AppCompatActivity() {
             extractFaceCutouts(bitmap) { faces ->
                 lifecycleScope.launch {
                     val resultBuilder = StringBuilder()
+                    // notify user we did not find any face
+                    if (faces.isEmpty()) {resultBuilder.append("No faces were detected!")}
                     for ((index, face) in faces.withIndex()) {
                         try {
                             val (gender, age, smile) = convertPredictions(
@@ -285,13 +285,12 @@ class MainActivity : AppCompatActivity() {
                             Log.e("MK", "Inference failed", t)
                         }
                     }
-                    // Now set everything into ONE TextView
+                    // display collected text
                     resultText = findViewById(R.id.ResultText)
                     resultText.text = resultBuilder.toString().trim()
                     resultText.movementMethod = ScrollingMovementMethod()
                 }
             }
-
         }
     }
 
@@ -331,7 +330,7 @@ class MainActivity : AppCompatActivity() {
         debugText.setText("Gender:${maleProb}, Age:${youngProb}, Smile:${smilingProb}")
         return arrayOf(
             if (maleProb > 0.5f) "Male" else "Female",
-            AGE_LABELS[(youngProb * AGE_LABELS.lastIndex).toInt().coerceIn(0, AGE_LABELS.lastIndex)],
+            if (youngProb > 0.5f) "Young" else "Not Young",
             if (smilingProb > 0.5f) "Smiling" else "not Smiling"
         )
     }
@@ -367,15 +366,6 @@ class MainActivity : AppCompatActivity() {
                     val top = boundingBox.top.coerceIn(0, bitmap.height - 1)
                     val width = (boundingBox.right - left).coerceIn(1, bitmap.width - left)
                     val height = (boundingBox.bottom - top).coerceIn(1, bitmap.height - top)
-                    // Draw rectangle on the bitmap
-                    canvas.drawRect(
-                        left.toFloat(),
-                        top.toFloat(),
-                        (left + width).toFloat(),
-                        (top + height).toFloat(),
-                        paint
-                    )
-
                     // Create a cutout of the face
                     val faceCutout = Bitmap.createBitmap(bitmap, left, top, width, height)
                     faceCutouts.add(faceCutout)
