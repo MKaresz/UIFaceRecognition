@@ -1,0 +1,68 @@
+F32
+eval_set/182643.jpg: gender:Male age:Young smile:not Smiling >> Gender:0.99999636, age:0.9960722, smile:0.0015328325, time:32
+eval_set/182648.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:0.9997397, age:0.30650944, smile:0.012510001, time:32
+eval_set/182686.jpg: gender:Male age:Young smile:Smiling >> Gender:0.9999999, age:0.66697204, smile:0.999623, time:32
+eval_set/182753.jpg: gender:Male age:Young smile:Smiling >> Gender:0.9999991, age:0.9533767, smile:0.877359, time:32
+eval_set/182797.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.9999996, age:0.17478962, smile:0.996247, time:32
+eval_set/182918.jpg: gender:Male age:Young smile:Smiling >> Gender:0.9811971, age:0.70913714, smile:0.92425966, time:32
+eval_set/182967.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:1.0, age:4.5803012E-4, smile:0.0054587326, time:32
+eval_set/182968.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.9999988, age:0.0023796435, smile:0.9409496, time:32
+eval_set/182986.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.9999995, age:0.3260995, smile:0.9900205, time:31
+eval_set/182988.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:0.99999905, age:0.043966107, smile:0.011079597, time:32
+eval_set/183309.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.85511017, age:0.28616023, smile:0.9944905, time:32
+eval_set/183346.jpg: gender:Female age:Young smile:Smiling >> Gender:1.11874565E-10, age:0.9254378, smile:0.9953913, time:33
+eval_set/183405.jpg: gender:Female age:Not Young smile:Smiling >> Gender:6.760637E-7, age:0.22110364, smile:0.99677, time:31
+eval_set/183426.jpg: gender:Female age:Young smile:not Smiling >> Gender:3.8245034E-8, age:0.99956757, smile:0.41957793, time:32
+eval_set/183434.jpg: gender:Female age:Young smile:not Smiling >> Gender:7.0590595E-6, age:0.9946664, smile:0.04499262, time:32
+eval_set/183512.jpg: gender:Female age:Not Young smile:Smiling >> Gender:1.175628E-7, age:0.08820759, smile:0.9997941, time:32
+eval_set/183534.jpg: gender:Female age:Not Young smile:Smiling >> Gender:6.677325E-4, age:0.12645383, smile:0.958564, time:32
+eval_set/183566.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:0.93729454, age:0.30801636, smile:1.0944794E-4, time:32
+eval_set/183578.jpg: gender:Female age:Not Young smile:Smiling >> Gender:3.58011E-4, age:0.19267832, smile:0.9987911, time:32
+eval_set/183603.jpg: gender:Female age:Not Young smile:not Smiling >> Gender:5.1219686E-5, age:0.10049503, smile:0.09925081, time:32
+
+F16
+eval_set/182643.jpg: gender:Male age:Young smile:not Smiling >> Gender:0.9999965, age:0.996112, smile:0.0015415745, time:32
+eval_set/182648.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:0.99974805, age:0.3082847, smile:0.012254855, time:32
+eval_set/182686.jpg: gender:Male age:Young smile:Smiling >> Gender:0.9999999, age:0.6732625, smile:0.99962664, time:32
+eval_set/182753.jpg: gender:Male age:Young smile:Smiling >> Gender:0.99999917, age:0.95357937, smile:0.87776595, time:32
+eval_set/182797.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.9999996, age:0.17272174, smile:0.996078, time:32
+eval_set/182918.jpg: gender:Male age:Young smile:Smiling >> Gender:0.98190236, age:0.70767915, smile:0.9243776, time:32
+eval_set/182967.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:1.0, age:4.499809E-4, smile:0.005587355, time:32
+eval_set/182968.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.99999875, age:0.0023737047, smile:0.9418415, time:32
+eval_set/182986.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.9999995, age:0.3294567, smile:0.99028313, time:32
+eval_set/182988.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:0.99999905, age:0.04467745, smile:0.011906437, time:32
+eval_set/183309.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.85714793, age:0.28353295, smile:0.99446, time:32
+eval_set/183346.jpg: gender:Female age:Young smile:Smiling >> Gender:1.1545623E-10, age:0.9236571, smile:0.99540555, time:32
+eval_set/183405.jpg: gender:Female age:Not Young smile:Smiling >> Gender:6.8569125E-7, age:0.2182388, smile:0.9968213, time:32
+eval_set/183426.jpg: gender:Female age:Young smile:not Smiling >> Gender:3.9918557E-8, age:0.9995721, smile:0.41377565, time:32
+eval_set/183434.jpg: gender:Female age:Young smile:not Smiling >> Gender:7.192001E-6, age:0.9943647, smile:0.0451464, time:32
+eval_set/183512.jpg: gender:Female age:Not Young smile:Smiling >> Gender:1.2339267E-7, age:0.08770636, smile:0.9997836, time:32
+eval_set/183534.jpg: gender:Female age:Not Young smile:Smiling >> Gender:6.789778E-4, age:0.1272531, smile:0.9595043, time:32
+eval_set/183566.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:0.93684757, age:0.30494246, smile:1.1408431E-4, time:32
+eval_set/183578.jpg: gender:Female age:Not Young smile:Smiling >> Gender:3.562859E-4, age:0.18879879, smile:0.9988216, time:32
+eval_set/183603.jpg: gender:Female age:Not Young smile:not Smiling >> Gender:4.91567E-5, age:0.10099786, smile:0.10068854, time:33
+
+I8
+eval_set/182643.jpg: gender:Male age:Young smile:not Smiling >> Gender:0.99609375, age:0.99609375, smile:0.0, time:18
+eval_set/182648.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:0.99609375, age:0.26171875, smile:0.0078125, time:17
+eval_set/182686.jpg: gender:Male age:Young smile:Smiling >> Gender:0.99609375, age:0.66796875, smile:0.99609375, time:17
+eval_set/182753.jpg: gender:Male age:Young smile:Smiling >> Gender:0.99609375, age:0.96484375, smile:0.76953125, time:17
+eval_set/182797.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.99609375, age:0.19921875, smile:0.99609375, time:18
+eval_set/182918.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.96484375, age:0.5, smile:0.890625, time:17
+eval_set/182967.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:0.99609375, age:0.0, smile:0.00390625, time:18
+eval_set/182968.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.99609375, age:0.0, smile:0.87109375, time:18
+eval_set/182986.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.99609375, age:0.23046875, smile:0.98828125, time:17
+eval_set/182988.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:0.99609375, age:0.01171875, smile:0.01171875, time:18
+eval_set/183309.jpg: gender:Male age:Not Young smile:Smiling >> Gender:0.91796875, age:0.4140625, smile:0.99609375, time:18
+eval_set/183346.jpg: gender:Female age:Young smile:Smiling >> Gender:0.0, age:0.87109375, smile:0.984375, time:18
+eval_set/183405.jpg: gender:Female age:Not Young smile:Smiling >> Gender:0.0, age:0.1484375, smile:0.99609375, time:18
+eval_set/183426.jpg: gender:Female age:Young smile:not Smiling >> Gender:0.0, age:0.99609375, smile:0.04296875, time:17
+eval_set/183434.jpg: gender:Female age:Young smile:not Smiling >> Gender:0.0, age:0.9921875, smile:0.04296875, time:17
+eval_set/183512.jpg: gender:Female age:Not Young smile:Smiling >> Gender:0.0, age:0.09375, smile:0.99609375, time:18
+eval_set/183534.jpg: gender:Female age:Not Young smile:Smiling >> Gender:0.0, age:0.109375, smile:0.98828125, time:17
+eval_set/183566.jpg: gender:Male age:Not Young smile:not Smiling >> Gender:0.9921875, age:0.12890625, smile:0.0, time:18
+eval_set/183578.jpg: gender:Female age:Not Young smile:Smiling >> Gender:0.0, age:0.12890625, smile:0.99609375, time:17
+eval_set/183603.jpg: gender:Female age:Not Young smile:not Smiling >> Gender:0.0, age:0.109375, smile:0.05078125, time:17
+
+
+

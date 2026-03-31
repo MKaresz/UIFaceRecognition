@@ -10,13 +10,16 @@ IMG_SIZE = 160
 BATCH_SIZE = 64
 AUTOTUNE = tf.data.AUTOTUNE
 NUM_LABELS = 3  # e.g., [Male, Young, Smiling]
-EPOCHS_BASE = 1 # ~10–20 is typical; stop earlier with EarlyStopping
-EPOCHS_TUNE = 1 # ~8–20 typical
+EPOCHS_BASE = 1 # ~10–20
+EPOCHS_TUNE = 1 # ~8–20
 # model output decoding
 ATTRS = ["Male", "Young", "Smiling"]
 
 
-# inspired from the article:
+# inspired from the articles:
+# by 2017 François Chollet
+# https://www.tensorflow.org/tutorials/images/transfer_learning
+# https://www.tensorflow.org/guide/keras/transfer_learning
 # Content-Based Feature Extraction and Image Retrieval using Celeb-A dataset
 # by Santosh Sawant
 # https://www.linkedin.com/pulse/content-based-feature-extraction-image-retrieval-using-santosh-sawant
@@ -127,7 +130,7 @@ def show_prediction(idx, model, threshold=0.5):
 
 # DATASET LOADER
 (ds_train, ds_val, ds_test), info = tfds.load(
-    "celeb_a:2.1.0",                     # you can omit ":2.1.0" since it's the default
+    "celeb_a:2.1.0",
     split=["train", "validation", "test"],
     with_info=True,
     as_supervised=False,
@@ -142,7 +145,8 @@ val_ds = make_pipeline(ds_val,   training=False)
 test_ds = make_pipeline(ds_test,  training=False)
 
 # Convert test dataset to an unbatched list of individual (image, label) pairs
-test_samples = list(test_ds.unbatch().take(200)) # loads 200 images
+# loads 200 images
+test_samples = list(test_ds.unbatch().take(200))
 
 
 ## TRAINING

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "dataset": "CelebA",
+    "n_expected": 20,
+    "notes": "20 hand-picked test images with ground-truth for [Male, Young, Smiling]"
+  },
+  "images": {
+    "182686.jpg": {
+      "labels": {
+        "Male": 1, "Young": 1, "Smiling": 1
+      }
+    },
+    "182753.jpg": {
+      "labels": {
+        "Male": 1, "Young": 1, "Smiling": 1
+      }
+    },
+    "182797.jpg": {
+      "labels": {
+        "Male": 1, "Young": 1, "Smiling": 1
+      }
+    },
+    "182643.jpg": {
+      "labels": {
+        "Male": 1, "Young": 1, "Smiling": 0
+      }
+    },
+    "182648.jpg": {
+      "labels": {
+        "Male": 1, "Young": 1, "Smiling": 0
+      }
+    },
+    "182918.jpg": {
+      "labels": {
+        "Male": 1, "Young": 0, "Smiling": 1
+      }
+    },
+    "182968.jpg": {
+      "labels": {
+        "Male": 1, "Young": 0, "Smiling": 1
+      }
+    },
+    "182986.jpg": {
+      "labels": {
+        "Male": 1, "Young": 0, "Smiling": 1
+      }
+    },
+    "182988.jpg": {
+      "labels": {
+        "Male": 1, "Young": 0, "Smiling": 0
+      }
+    },
+    "182967.jpg":  {
+      "labels": {
+        "Male": 1, "Young": 0, "Smiling": 0
+      }
+    },
+    "183309.jpg": {
+      "labels": {
+        "Male": 0, "Young": 1, "Smiling": 1
+      }
+    },
+    "183346.jpg": {
+      "labels": {
+        "Male": 0, "Young": 1, "Smiling": 1
+      }
+    },
+    "183405.jpg": {
+      "labels": {
+        "Male": 0, "Young": 1, "Smiling": 1
+      }
+    },
+    "183426.jpg": {
+      "labels": {
+        "Male": 0, "Young": 1, "Smiling": 0
+      }
+    },
+    "183434.jpg": {
+      "labels": {
+        "Male": 0, "Young": 1, "Smiling": 0
+      }
+    },
+    "183512.jpg": {
+      "labels": {
+        "Male": 0, "Young": 0, "Smiling": 1
+      }
+    },
+    "183534.jpg": {
+      "labels": {
+        "Male": 0, "Young": 0, "Smiling": 1
+      }
+    },
+    "183578.jpg": {
+      "labels": {
+        "Male": 0, "Young": 0, "Smiling": 1
+      }
+    },
+    "183603.jpg": {
+      "labels": {
+        "Male": 0, "Young": 0, "Smiling": 0
+      }
+    },
+    "183566.jpg": {
+      "labels": {
+        "Male": 0, "Young": 1, "Smiling": 0
+      }
+    }
+  }
+}
